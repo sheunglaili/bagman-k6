@@ -9,7 +9,8 @@ Load testing script for Bagman.
 ## Getting started
 
 The following bundle this script with webpack and and run it with [K6](https://k6.io/)
-
+ 
+ `npm install`
  `npm run load-test -- -e BAGMAN_HOST=localhost:8080` 
 
  To run with more virtual users and longer duration: 
