@@ -30,7 +30,7 @@ export function setup() {
 export default async function ({ apiKey }) {
     const io = new SocketIO(__ENV.BAGMAN_HOST);
     await io.connect({ apiKey });
-    io.on('error', console.log)
+    io.on('error', console.error)
 
     // io.on("event", console.log)
 

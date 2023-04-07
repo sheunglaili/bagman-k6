@@ -21,7 +21,7 @@ The following bundle this script with webpack and and run it with [K6](https://k
 
  ## Stats 
 
- Result for running 500 concurrent users on single instance Bagman on a kubernetes node with droplet size of `s-2vcpu-2gb` hosted on Digitalocean with `npm run load-test -- -e BAGMAN_HOST=<BAGMAN_HOST_ADDRESS> -u 500 -d 50s`
+ Result for running 500 concurrent users on my laptop and test single instance of Bagman on a kubernetes node with droplet size of `s-2vcpu-2gb` hosted on Digitalocean with `npm run load-test -- -e BAGMAN_HOST=<BAGMAN_HOST_ADDRESS> -u 500 -d 50s`
 
  ```
 data_received..................: 114 MB  1.5 MB/s
