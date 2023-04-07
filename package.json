@@ -1,0 +1,27 @@
+{
+  "name": "bagman-k6",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "bundle": "webpack",
+    "load-test": "npm run bundle && k6 run ./dist/index.bundle.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.21.4",
+    "@babel/preset-env": "^7.21.4",
+    "babel-loader": "^9.1.2",
+    "core-js": "^3.30.0",
+    "k6": "^0.0.0",
+    "webpack": "^5.78.0",
+    "webpack-cli": "^5.0.1"
+  },
+  "dependencies": {
+    "@socket.io/component-emitter": "^4.0.0",
+    "engine.io-parser": "^5.0.6",
+    "socket.io-parser": "^4.2.2"
+  }
+}
